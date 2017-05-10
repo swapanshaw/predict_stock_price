@@ -5,9 +5,6 @@ from sklearn.linear_model import LinearRegression
 import scipy, scipy.stats
 import matplotlib.pyplot as plt
 
-print('hello world')
-
-
 def print_hello(message):
     path = r'aapl.csv'
     df = pd.read_csv(path)
@@ -24,6 +21,3 @@ def print_hello(message):
     #Prdicting stock price when volume is
     print(org.predict(26495312))
     print(original_score)
-
-
-print_hello('hello')
